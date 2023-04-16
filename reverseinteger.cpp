@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main () {
+void reverse() {
 
     int x;
     cout << "enter the number whose reverse you want : ";
@@ -17,4 +17,8 @@ int main () {
     }
     cout<< "the reverse of the number is "<<ans;
         
+}
+
+int main (){
+    reverse();
 }
